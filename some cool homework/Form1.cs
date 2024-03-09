@@ -145,6 +145,11 @@ namespace some_cool_homework
             fontDialog1.ShowDialog();
             richTextBox1.SelectionFont = fontDialog1.Font;
         }
+        private void backgroundColorToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            colorDialog1.ShowDialog();
+            richTextBox1.BackColor = colorDialog1.Color;
+        }
         #endregion
         #region templates
         private void cToolStripMenuItem_Click(object sender, EventArgs e)
@@ -184,5 +189,6 @@ namespace some_cool_homework
             MessageBox.Show("Looks like you want to suggest a feature. Well, I'm too lazy to add it, so you'll have to deal with it yourself. Sorry!");
         }
         #endregion
+
     }
 }

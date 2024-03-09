@@ -60,6 +60,7 @@
             saveFileDialog1 = new SaveFileDialog();
             colorDialog1 = new ColorDialog();
             fontDialog1 = new FontDialog();
+            backgroundColorToolStripMenuItem1 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -145,29 +146,29 @@
             // 
             // colorToolStripMenuItem
             // 
-            colorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { textColorToolStripMenuItem, backgroundColorToolStripMenuItem });
+            colorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { textColorToolStripMenuItem, backgroundColorToolStripMenuItem, backgroundColorToolStripMenuItem1 });
             colorToolStripMenuItem.Name = "colorToolStripMenuItem";
-            colorToolStripMenuItem.Size = new Size(128, 26);
+            colorToolStripMenuItem.Size = new Size(224, 26);
             colorToolStripMenuItem.Text = "Color";
             // 
             // textColorToolStripMenuItem
             // 
             textColorToolStripMenuItem.Name = "textColorToolStripMenuItem";
-            textColorToolStripMenuItem.Size = new Size(211, 26);
+            textColorToolStripMenuItem.Size = new Size(242, 26);
             textColorToolStripMenuItem.Text = "Text Color";
             textColorToolStripMenuItem.Click += textColorToolStripMenuItem_Click;
             // 
             // backgroundColorToolStripMenuItem
             // 
             backgroundColorToolStripMenuItem.Name = "backgroundColorToolStripMenuItem";
-            backgroundColorToolStripMenuItem.Size = new Size(211, 26);
-            backgroundColorToolStripMenuItem.Text = "Background Color";
+            backgroundColorToolStripMenuItem.Size = new Size(242, 26);
+            backgroundColorToolStripMenuItem.Text = "Text Background Color";
             backgroundColorToolStripMenuItem.Click += backgroundColorToolStripMenuItem_Click;
             // 
             // fontToolStripMenuItem
             // 
             fontToolStripMenuItem.Name = "fontToolStripMenuItem";
-            fontToolStripMenuItem.Size = new Size(128, 26);
+            fontToolStripMenuItem.Size = new Size(224, 26);
             fontToolStripMenuItem.Text = "Font";
             fontToolStripMenuItem.Click += fontToolStripMenuItem_Click;
             // 
@@ -209,21 +210,21 @@
             // aboutToolStripMenuItem
             // 
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            aboutToolStripMenuItem.Size = new Size(224, 26);
+            aboutToolStripMenuItem.Size = new Size(221, 26);
             aboutToolStripMenuItem.Text = "About";
             aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
             // 
             // reportAProblemToolStripMenuItem
             // 
             reportAProblemToolStripMenuItem.Name = "reportAProblemToolStripMenuItem";
-            reportAProblemToolStripMenuItem.Size = new Size(224, 26);
+            reportAProblemToolStripMenuItem.Size = new Size(221, 26);
             reportAProblemToolStripMenuItem.Text = "Report A Problem...";
             reportAProblemToolStripMenuItem.Click += reportAProblemToolStripMenuItem_Click;
             // 
             // suggestAFeatureToolStripMenuItem
             // 
             suggestAFeatureToolStripMenuItem.Name = "suggestAFeatureToolStripMenuItem";
-            suggestAFeatureToolStripMenuItem.Size = new Size(224, 26);
+            suggestAFeatureToolStripMenuItem.Size = new Size(221, 26);
             suggestAFeatureToolStripMenuItem.Text = "Suggest A Feature...";
             suggestAFeatureToolStripMenuItem.Click += suggestAFeatureToolStripMenuItem_Click;
             // 
@@ -274,6 +275,13 @@
             // 
             saveFileDialog1.Filter = "Text File (.txt)|*.txt";
             saveFileDialog1.FileOk += saveFileDialog1_FileOk;
+            // 
+            // backgroundColorToolStripMenuItem1
+            // 
+            backgroundColorToolStripMenuItem1.Name = "backgroundColorToolStripMenuItem1";
+            backgroundColorToolStripMenuItem1.Size = new Size(242, 26);
+            backgroundColorToolStripMenuItem1.Text = "Background Color";
+            backgroundColorToolStripMenuItem1.Click += backgroundColorToolStripMenuItem1_Click;
             // 
             // Form1
             // 
@@ -328,5 +336,6 @@
         private ToolStripMenuItem aboutToolStripMenuItem;
         private ToolStripMenuItem reportAProblemToolStripMenuItem;
         private ToolStripMenuItem suggestAFeatureToolStripMenuItem;
+        private ToolStripMenuItem backgroundColorToolStripMenuItem1;
     }
 }
