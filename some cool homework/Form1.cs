@@ -1,17 +1,4 @@
-﻿/****************************************************************************
-**					SAKARYA ÜNİVERSİTESİ
-**				BİLGİSAYAR VE BİLİŞİM BİLİMLERİ FAKÜLTESİ
-**				    BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ
-**				   NESNEYE DAYALI PROGRAMLAMA DERSİ
-**					2023-2024 BAHAR DÖNEMİ
-**	
-**				ÖDEV NUMARASI..........: 1
-**				ÖĞRENCİ ADI............: Mustafa Masri
-**				ÖĞRENCİ NUMARASI.......: G221210580
-**                         DERSİN ALINDIĞI GRUP...: 2. Öğretim A Grubu
-****************************************************************************/
-
-//hello user, this program was made for my object oriented class homework.
+﻿//hello user, this program was made for my object oriented class homework.
 //I will probably never check up on it again, so good luck with it!
 
 using System.Diagnostics.CodeAnalysis;
