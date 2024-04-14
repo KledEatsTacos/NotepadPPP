@@ -1,1 +1,2 @@
-This is a simple app that I probably won't visit ever again, so good luck with that.
+This is a simple text editor app that I probably won't visit ever again, so good luck with that. <br>
+P.S. I jokingly named this program Notepad+++. How very ironic...
