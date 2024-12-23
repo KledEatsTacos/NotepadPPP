@@ -1,2 +1,10 @@
-This is a simple text editor app that I probably won't visit ever again, so good luck with that. <br>
-P.S. I jokingly named this program Notepad+++. How very ironic...
+# Notepad+++
+
+This is my first homework for my Object-Oriented Programming class. The program is a simple text editor app.
+
+## Features
+- Create and edit text files.
+- Save and load text files.
+- Basic text editing functionalities like cut, copy, and paste.
+
+This project will probably put Notepad++ out of business.
